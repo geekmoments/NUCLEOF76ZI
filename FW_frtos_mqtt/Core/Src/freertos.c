@@ -178,7 +178,7 @@ void StartDefaultTask(void const * argument)
   	/* Infinite loop */
   	for(;;)
   	{
-  		//HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin); //toggle running led
+  		HAL_GPIO_TogglePin(GPIOB, LD1_Pin); //toggle_led
   		osDelay(500);
   	}
 
@@ -209,6 +209,8 @@ void MqttClientSubTask(void const *argument)
 	{
 		if(!mqttClient.isconnected)
 		{
+			HAL_GPIO_TogglePin(GPIOB, LD2_Pin);
+
 			//try to connect to the broker
 			MQTTDisconnect(&mqttClient);
 			MqttConnectBroker();
@@ -236,7 +238,7 @@ void MqttClientPubTask(void const *argument)
 
 			MQTTPublish(&mqttClient, "test", &message); //publish a message
 		}
-
+		HAL_GPIO_TogglePin(GPIOB, LD3_Pin);
 		osDelay(1000);
 	}
 }

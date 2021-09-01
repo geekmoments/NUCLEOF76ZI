@@ -3,6 +3,6 @@ freertos.c:114:6:vApplicationGetIdleTaskMemory	24	static
 freertos.c:128:6:MX_FREERTOS_Init	48	static
 freertos.c:167:6:StartDefaultTask	80	static
 freertos.c:191:6:MqttClientSubTask	16	static
-freertos.c:225:6:MqttClientPubTask	40	static
-freertos.c:245:5:MqttConnectBroker	120	static
-freertos.c:286:6:MqttMessageArrived	24	static
+freertos.c:227:6:MqttClientPubTask	40	static
+freertos.c:247:5:MqttConnectBroker	120	static
+freertos.c:288:6:MqttMessageArrived	24	static
