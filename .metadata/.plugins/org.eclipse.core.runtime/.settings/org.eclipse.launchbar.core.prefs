@@ -1,8 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FW_frtos_mqtt
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FW_frtos_mqtt,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FW_frtos_mqtt/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FW_frtos_mqtt/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO\ Debug/activeLaunchMode=run

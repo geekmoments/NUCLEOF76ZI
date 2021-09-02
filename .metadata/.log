@@ -1297,3 +1297,6 @@ org.eclipse.core.runtime.CoreException: Project: UART is closed or inaccessible!
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 !SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-09-01 14:13:23.366
 !MESSAGE Project: UART is closed or inaccessible!
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-01 16:23:10.101
+!MESSAGE Indexed 'ADC' (28 sources, 88 headers) in 2.12 sec: 7,233 declarations; 44,299 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0039%)
